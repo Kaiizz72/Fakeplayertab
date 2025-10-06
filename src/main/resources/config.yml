@@ -1,0 +1,21 @@
+# Thời gian chat cơ bản (giây)
+chat-interval: 30
+
+# Độ ngẫu nhiên thêm (giây) - ví dụ interval=30, jitter=15 => chat cách nhau 30-45s
+chat-jitter: 15
+
+# Danh sách tin nhắn ngẫu nhiên
+messages:
+  - "Xin chào mọi người!"
+  - "Ai đi mine chung không?"
+  - "Server này vui phết!"
+  - "Cày rank thôi nào!"
+  - "Có ai bán kim cương không?"
+
+# Prefix mặc định nếu không có prefix riêng
+default-prefix: "&7[Người Chơi] &r"
+
+# Prefix riêng cho từng fake player
+prefixes:
+  Linh: "&6➛ Đại Tướng &r"
+  Nam: "&a➛ Binh Nhất &r"
